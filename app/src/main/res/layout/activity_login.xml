@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="330dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logodiligencia" />
+
+    <EditText
+        android:id="@+id/etEmailLog"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="45dp"
+        android:drawableStart="@drawable/email"
+        android:ems="10"
+        android:hint=" Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/etSenhaLog"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="45dp"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+        android:ems="10"
+        android:hint=" Senha"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmailLog" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <Button
+        android:id="@+id/botaoForgotPss"
+        android:layout_width="192dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="45dp"
+        android:background="@android:color/transparent"
+        android:text="Esqueceu a sua senha?"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSenhaLog" />
+
+    <Button
+        android:id="@+id/botaoLogIN"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:background="@drawable/formato_botao"
+        android:backgroundTint="@color/colorPrimary"
+        android:drawableLeft="@drawable/arrow"
+        android:text="Entrar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoForgotPss" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:text="Ou acesse com:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoLogIN" />
+
+    <ImageButton
+        android:id="@+id/botaoLogFB"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="40dp"
+        android:background="#BF271F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/facebook" />
+
+    <Button
+        android:id="@+id/botaoCadUser"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="80dp"
+        android:background="@android:color/transparent"
+        android:text="Não é cadastrado? Cadastre-se"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="45dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/googleplus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,20 +8,19 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="247dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="30dp"
-        android:layout_marginBottom="240dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra ex id lacus porta mattis. Morbi eu ipsum non quam egestas scelerisque id sed elit. Vestibulum pretium nisi in elit."
+        android:layout_marginBottom="200dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra ex id lacus porta mattis. Morbi eu ipsum non quam egestas scelerisque id sed elit."
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -39,7 +38,7 @@
         android:layout_width="285dp"
         android:layout_height="60dp"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="60dp"
         android:background="@drawable/formato_botao"
         android:clickable="true"

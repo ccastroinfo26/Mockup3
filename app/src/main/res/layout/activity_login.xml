@@ -20,6 +20,7 @@
 
     <EditText
         android:id="@+id/etEmailLog"
+        android:theme="@style/MyEditTextTheme"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_marginStart="45dp"
@@ -29,6 +30,8 @@
         android:ems="10"
         android:hint=" Email"
         android:inputType="textEmailAddress"
+        android:padding="2dp"
+        android:paddingStart="5dp"
         android:textColorHint="#FFFFFF"
         android:textColorLink="#00FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,19 +48,14 @@
         android:drawableStart="@android:drawable/ic_lock_idle_lock"
         android:ems="10"
         android:hint=" Senha"
+        android:padding="2dp"
+        android:theme="@style/MyEditTextTheme"
         android:inputType="textPassword"
         android:textColorHint="#FFFFFF"
         android:textColorLink="#00FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmailLog" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5" />
 
     <Button
         android:id="@+id/botaoForgotPss"
@@ -76,13 +74,17 @@
     <Button
         android:id="@+id/botaoLogIN"
         android:layout_width="320dp"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
         android:layout_marginStart="45dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="45dp"
         android:background="@drawable/formato_botao"
         android:backgroundTint="@color/colorPrimary"
         android:drawableLeft="@drawable/arrow"
+        android:paddingLeft="110dp"
+        android:paddingRight="110dp"
+        android:drawablePadding="2dp"
+        android:onClick="botaoLogIN"
         android:text="Entrar"
         android:textColor="#FFFFFF"
         android:textSize="18sp"

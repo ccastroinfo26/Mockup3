@@ -1,44 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/header"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_alignParentTop="true"
-    android:background="#B22222">
+    android:layout_height="50dp"
+    android:background="#B22222"
+    app:layout_constraintTop_toBottomOf="@id/my_toolbar">
 
-    <TextView
-        android:id="@+id/textViewHeader"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginBottom="10dp"
-        android:text="A Diligência"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp" />
 
-    <ImageButton
-        android:id="@+id/menuHeader"
-        android:layout_width="45dp"
-        android:layout_height="38dp"
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:backgroundTint="#00FFFFFF"
-        app:srcCompat="@drawable/menu" />
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:drawableStart="@drawable/search"
+        android:ems="10"
+        android:hint="@string/campoPesquisa"
+        android:inputType="text" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="45dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="360dp"
+        android:id="@+id/imageButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="#00FFFFFF"
-        app:srcCompat="@drawable/bell" />
+        android:backgroundTint="@color/transparent"
+        app:srcCompat="@drawable/configs" />
 
-</RelativeLayout>
+</LinearLayout>

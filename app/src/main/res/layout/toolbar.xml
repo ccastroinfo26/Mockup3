@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:minHeight="60dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageButton
+            android:id="@+id/menuToolBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:backgroundTint="@color/transparent"
+            android:clickable="true"
+            android:gravity="center"
+            android:src="@drawable/menu"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="A Diligência"
+            android:textAlignment="center"
+            android:textColor="@color/branco"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/notifyBell"
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/transparent"
+            android:src="@drawable/bell" />
+
+        <Button
+            android:id="@+id/btnNotify"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/buttonnotify"
+            android:clickable="true"
+            android:text="@string/btnNotify"
+            android:textColor="@color/branco"
+            android:textSize="14sp" />
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".toolbar"></activity>
+        <activity android:name=".telaTermos"></activity>
+        <activity android:name=".TelaSobre" />
+        <activity android:name=".BuscaAdvogados" />
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/NoActionBar" />
         <activity android:name=".telaComMapa" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity">

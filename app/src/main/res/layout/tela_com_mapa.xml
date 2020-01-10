@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".telaComMapa">
 
-    <include layout="@layout/toolbar"
+   <!-- <include layout="@layout/toolbar"
         android:id="@+id/includeToolbar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:clickable="true"
-    />
+    /> -->
 
     <include
         android:id="@+id/include"
@@ -20,8 +20,6 @@
         android:layout_height="50dp"
         android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/includeToolbar" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

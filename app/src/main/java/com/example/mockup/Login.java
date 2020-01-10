@@ -13,9 +13,22 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
     }
+
     public void botaoLogIN(View view) {
 
         Intent intent = new Intent(this, telaComMapa.class);
         startActivity(intent);
     }
+
+    public void buttonLogFB(View view) {
+
+        Intent intent = new Intent(this, TelaSobre.class);
+        startActivity(intent);
+    }
+    public void buttonLogG (View view) {
+
+        Intent intent = new Intent(this, telaTermos.class);
+        startActivity(intent);
+    }
+
 }

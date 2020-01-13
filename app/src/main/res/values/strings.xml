@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mockup</string>
+    <string name="app_name">A Diligência</string>
     <string name="Lipsun">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra ex id lacus porta mattis. Morbi eu ipsum non quam egestas scelerisque id sed elit.</string>
     <string name="btn1tela">Experimente!</string>
     <string name="campoEmail">Email</string>
@@ -26,6 +26,7 @@
     <string name="menu_myDl">Minhas Diligências</string>
     <string name="menu_terms">Termos e Condições</string>
     <string name="menu_sair">Sair</string>
+    <string name="distancia">@johndoe • está a 9km</string>
 
 
 </resources>

@@ -9,10 +9,11 @@
         android:roundIcon="@drawable/icon_rounded"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".tela6"></activity>
         <activity
             android:name=".menu"
             android:label="@string/title_activity_menu"
-            android:theme="@style/NoActionBar"></activity>
+            android:theme="@style/NoActionBar" />
         <activity android:name=".splashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,14 +23,14 @@
         </activity>
         <activity android:name=".telaTermos" />
         <activity android:name=".TelaSobre" />
-        <activity android:name=".BuscaAdvogados" />
+        <activity android:name=".tela5" />
         <activity
             android:name=".Menu"
             android:label="@string/title_activity_menu"
             android:theme="@style/NoActionBar" />
         <activity android:name=".telaComMapa" />
         <activity android:name=".Login" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

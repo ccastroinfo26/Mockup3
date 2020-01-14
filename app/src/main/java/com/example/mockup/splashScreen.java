@@ -15,7 +15,7 @@ public class splashScreen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() { }
-            }, 2000);
+            }, 4000);
             Intent intent = new Intent(splashScreen.this, MainActivity.class);
             startActivity(intent);
             finish();

@@ -12,32 +12,32 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.mockup.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/fragment_buscar"
+        android:name="com.example.mockup.ui.Buscar.GalleryFragment"
+        android:label="@string/menu_buscarDl"
+        tools:layout="@layout/fragment_buscar" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.mockup.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/fragment_sobre"
+        android:name="com.example.mockup.ui.Sobre.SobreFragment"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/fragment_sobre" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.example.mockup.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        android:id="@+id/fragment_minhas"
+        android:name="com.example.mockup.ui.MinhasDiligências.MinhasFragment"
+        android:label="@string/menu_myDl"
+        tools:layout="@layout/fragment_myDL" />
 
     <fragment
-        android:id="@+id/nav_share"
-        android:name="com.example.mockup.ui.share.ShareFragment"
-        android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
+        android:id="@+id/fragment_terms"
+        android:name="com.example.mockup.ui.Termos.TermosFragment"
+        android:label="@string/menu_terms"
+        tools:layout="@layout/fragment_terms" />
 
     <fragment
-        android:id="@+id/nav_send"
-        android:name="com.example.mockup.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        android:id="@+id/fragment_exit"
+        android:name="com.example.mockup.ui.Sair.SairFragment"
+        android:label="@string/menu_sair"
+        tools:layout="@layout/fragment_exit" />
 </navigation>

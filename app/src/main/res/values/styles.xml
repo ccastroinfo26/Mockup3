@@ -13,6 +13,11 @@
         </item>
     </style>
 
+    <style name="MyEditTextTheme2">
+        <item name="colorControlNormal">#bf271f
+        </item>
+    </style>
+
     <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
